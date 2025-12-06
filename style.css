@@ -20,7 +20,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#ef6d3d;
+  color:#3764ed;
 }
 a:focus {
   outline: thin dotted;
@@ -97,7 +97,7 @@ html {
   background-size:cover;
 }
 body {
-  max-width:1400px;
+  max-width:1200px;
   margin:25px auto;
 }
 header, #content, footer { 
