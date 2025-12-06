@@ -1,39 +1,81 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
-	<head>
-		<title>Madison</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Madison Alexander - Personal Pertfolio</title>
+    <meta name="description" content="personal portfolio">
+    <meta name="author" content="undergrad student">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+  
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="education.html">Education</a></li>
-         			<li><a href="projects.html">Projects</a></li>
-					<li><a href="contact.html">Conntact</a></li>
-				</ul>
-			</nav>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
 
-		<!-- Home -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="profile.png" alt="" /></span>
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1>Hi. I'm Madison Alexander.</h1>
-							</header>
-							<p>I am currently an undergrad student with a passion for coding, and looking foward to learning more about AI developement.</p>
-							<!--<a href="#work" class="button large scrolly">Learn about what I do</a>-->
-						</div>
-					</div>
-				</div>
-			</article>
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    
+  </head>
+  
+  <body>
 
-		
+    <header id="header">
+      <h1>Simple Website</h1>
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Education</a></li>
+		<li><a href="#projects">Projecta</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>                 
+    </header>
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <h2>Home</h2>
+			<img src="logo.png" width="500" height="500">
+			<h3>Hi, My name is Madison Alexander</h3>
+            <p>
+              I am an undergrad student with a passion for coding. I am looking forward to learning more about AI developement and Software developement.
+            </p>
+          </div>
+          
+          <div id="about" class="content-region hide">
+            <h2>About</h2>
+            <p>
+              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
+            </p>
+          </div>
+          
+          <div id="contact" class="content-region hide">
+            <h2>Contact</h2>
+            <p>
+              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <footer>  
+      Footer region
+    </footer>
+    
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
+</html>
